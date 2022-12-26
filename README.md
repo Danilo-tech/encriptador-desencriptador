@@ -12,20 +12,13 @@
     <li>
       <a href="#about-the-project">Sobre el proyecto</a
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## SOBRE EL PROYECTO
 
-Esto es un proyecto en construcción
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green) Esto es un proyecto en construcción 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
