@@ -1,6 +1,11 @@
 body{
 background: #F3F5FC;
 margin: 40px;
+font-family: 'Inter', sans-serif;
+}
+
+.section1{
+display: inline-block;
 }
 
 .simbolo-alura-div{
@@ -12,14 +17,16 @@ width: 60%;
 height: 3.5rem;
 }
 
+.contenido1{
+margin: 0 0 0 14rem;
+}
+
 .textarea-estilo{
     outline: none;
     background: none;
     border: 0;
-    width: 30%;
     resize: none;
 
-    font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
@@ -27,12 +34,12 @@ height: 3.5rem;
         /* identical to box height, or 48px */
         /* Dark blue/dark-blue-300 */
         color: #0A3871;
-        margin: 3rem 0 0 14rem;
+        margin: 3rem 0 0 0rem;
 }
 
 textarea::placeholder{
 /* Ingrese el texto aqui */
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -41,4 +48,74 @@ textarea::placeholder{
     /* Dark blue/dark-blue-300 */
     color: #0A3871;
     
+}
+
+.div-exclamacion{
+display: flex;
+padding-bottom: 1rem;
+}
+
+.texto-exclamacion{
+/* Solo letras minúsculas y sin acentos */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+    /* Gray/gray-400 */
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0 0 0 0.4rem;
+}
+
+.botones{
+display: flex;
+}
+
+
+.boton-encriptar{
+    background: #0A3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+    /* Button */
+
+    width: 22rem;
+    height: 4rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 2rem;
+}
+
+.boton-desencriptar{
+background: #D8DFE8;
+border: 1px solid #0A3871;
+border-radius: 24px;/* Button */
+color: #0A3871;
+box-sizing: border-box;
+
+    /* Button */
+    
+        width: 22rem;
+        height: 4rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+}
+
+.section2{
+width: 40%;
+float: right;
 }
