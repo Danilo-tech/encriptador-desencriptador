@@ -17,7 +17,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## SOBRE EL PROYECTO
-Esto es un proyecto en construcción
+Esto es un proyecto en desarrollo
 <br>
 <br>
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green) 
