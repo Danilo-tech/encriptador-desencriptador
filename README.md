@@ -20,6 +20,7 @@
 Esto es un proyecto en desarrollo
 <br>
   https://danilo-tech.github.io/portafolio/
+  <br>
 <br>
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green) 
 
