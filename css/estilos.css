@@ -36,7 +36,7 @@ body {
     color: #0A3871;
     margin: 3rem 0 0 0rem;
     width: 46rem;
-    height: 35rem;
+    height: 34.8rem;
 }
 
 textarea::placeholder {
@@ -55,7 +55,7 @@ textarea::placeholder {
 .div-exclamacion {
     display: flex;
     padding-bottom: 1rem;
-    margin-top: 4.2rem;
+    margin-top: 3.3rem;
 }
 
 .texto-exclamacion {
@@ -120,7 +120,7 @@ textarea::placeholder {
 }
 
 .creadopor {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 0.8rem;
     color: #495057;
 
