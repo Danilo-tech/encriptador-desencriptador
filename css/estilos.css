@@ -35,6 +35,8 @@ body {
     /* Dark blue/dark-blue-300 */
     color: #0A3871;
     margin: 3rem 0 0 0rem;
+    width: 46rem;
+    height: 35rem;
 }
 
 textarea::placeholder {
@@ -53,7 +55,7 @@ textarea::placeholder {
 .div-exclamacion {
     display: flex;
     padding-bottom: 1rem;
-    margin-top: 5.2rem;
+    margin-top: 4.2rem;
 }
 
 .texto-exclamacion {
@@ -117,8 +119,29 @@ textarea::placeholder {
     line-height: 19px;
 }
 
+.creadopor {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #495057;
+
+    opacity: 0.8;
+}
+
+.creadopor em {
+    font-style: italic;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #495057;
+}
+
+a:hover {
+    color: orange;
+}
+
 .section2 {
-width: 30%;
+    width: 30%;
     height: 92vh;
     float: right;
     background: #FFFFFF;
@@ -128,7 +151,8 @@ width: 30%;
     -ms-border-radius: 32px;
     -o-border-radius: 32px;
     /*box-shadow: 0px 0px 5px 0px #000000,        0px 0px 5px 0px #000000;
-    */box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,8 +162,8 @@ width: 30%;
     margin: auto 5rem;
 }
 
-.section2-titulo{
-font-family: 'Inter';
+.section2-titulo {
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -153,8 +177,8 @@ font-family: 'Inter';
     color: #343A40;
 }
 
-.section2-mensaje{
-font-family: 'Inter';
+.section2-mensaje {
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -166,4 +190,67 @@ font-family: 'Inter';
     /* Gray/gray-400 */
 
     color: #495057;
+}
+
+/* tableta */
+
+@media (max-width:800px) {
+
+
+    .contenido1 {
+        margin: auto;
+    }
+
+    .botones {
+        width: 44rem;
+    }
+
+    .muñeco {
+        display: none;
+    }
+
+    .section2 {
+        width: auto;
+        height: auto;
+        padding: 3rem 0;
+        float: none;
+    }
+}
+
+@media (max-width:500px) {
+
+
+    .contenido1 {
+        margin: auto;
+    }
+
+    .textarea-estilo {
+        width: 17rem;
+    }
+
+    .botones {
+        width: auto;
+        display: grid;
+    }
+
+    .boton-encriptar {
+        width: 17rem;
+    }
+
+    .boton-desencriptar {
+        width: 17rem;
+        margin-top: 1rem;
+    }
+
+    .muñeco {
+        display: none;
+    }
+
+    .section2 {
+        width: auto;
+        height: auto;
+        padding: 3rem 0;
+        float: none;
+    }
+
 }
