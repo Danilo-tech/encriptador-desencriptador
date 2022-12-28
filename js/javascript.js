@@ -3,7 +3,7 @@ function encriptar() {
 
   var inputsc2 = document.getElementById("section2-textarea");
   inputsc2.style.cssText =
-    "display:block; font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 24px;line-height: 150%;color: #495057;border:none; padding:0;height:40rem;position:relative; bottom: 3rem;";
+    "display:block;";
 
   var pasartexto = document
     .getElementById("section1-textarea")

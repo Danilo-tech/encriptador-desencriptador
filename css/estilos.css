@@ -249,15 +249,28 @@ margin: 0 0 0 0;
 margin: 0 0 0 3rem;
 }
 
+.textarea-estilo{
+height: 30rem;
+}
+
+.div-exclamacion{
+margin-top: 0;
+
+}
+
 .section2{
     display: flex;
         justify-content: center;
         align-items: center;
 }
 
-.section2-elementos{
-margin: 0 1rem;
+#section2-textarea {
+height: 29rem;
+    bottom: 4rem;
 }
+/* .section2-elementos{
+margin: 0 1rem;
+} */
 
 .muñeco{
 width: 95%;
