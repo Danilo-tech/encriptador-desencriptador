@@ -377,5 +377,10 @@ width: 95%;
         float: none;
     }
 
+        #boton-copiar {
+            width: 17rem;
+ 
+        }
+
 }
 
