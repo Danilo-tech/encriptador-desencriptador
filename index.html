@@ -28,7 +28,7 @@
                 </div>
                 <div class="botones">
                     <button class="boton-encriptar" onclick="encriptar()">Encriptar</button>
-                    <button class="boton-desencriptar">Desencriptar</button>
+                    <button class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
                 </div>
                 <br>
                 <p class="creadopor">© <em>Creado por</em> <a
@@ -41,9 +41,10 @@
                 <h2 class="section2-titulo">Ningún mensaje fue encontrado</h2>
                 <p class="section2-mensaje">Ingresa el texto que desees encriptar o desencriptar</p>
             </div>
-            <div id="section2-nuevoselementos"> </div>
+            <div id="section2-nuevoselementos"> 
             <textarea id="section2-textarea" readonly="readonly"></textarea>
-            <button id="boton-copiar">Copiar</button>
+            <button id="boton-copiar" onclick="copiar()">Copiar</button>
+            </div>
         </section>
 
     </main>

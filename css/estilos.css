@@ -195,6 +195,8 @@ a:hover {
 
 #section2-textarea {
     display: none;
+   bottom: 20rem;
+    
 }
 
 #section2-textarea:active {
@@ -203,12 +205,80 @@ a:hover {
 
 #boton-copiar {
     display: none;
+    background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        box-sizing: border-box;
+        width: 18rem;
+        height: 4rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        position: absolute;
+        bottom: 7.9rem;
+    
 }
 
 
-/* tableta */
+/* queries */
+@media (max-width:1600px) {
 
-@media (max-width:800px) {
+
+.section1{
+width: 64%;
+margin: 0 0 0 0;
+
+}
+
+.contenido1{
+margin: 0 0 0 3rem;
+}
+
+.section2{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#section2-textarea {
+    position: relative;
+    bottom: 21rem;
+}
+
+.section2-elementos{
+margin: 0 1rem;
+}
+
+.muñeco{
+width: 95%;
+}
+
+#boton-copiar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    box-sizing: border-box;
+    width: 16rem;
+    height: 4rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    bottom: 7.9rem;
+
+
+}
+}
+
+
+
+@media (max-width:1023px) {
 
 
     .contenido1 {
@@ -219,19 +289,40 @@ a:hover {
         width: 44rem;
     }
 
-    .muñeco {
-        display: none;
-    }
-
-    .section2 {
-        width: auto;
+.section2 {
+        width: 45rem;
         height: auto;
         padding: 3rem 0;
         float: none;
     }
+
+#section2-textarea {
+    position: relative;
+    bottom: 0;
+}
+    
+    .muñeco {
+        display: none;
+    }
+
+    #boton-copiar{
+    background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        box-sizing: border-box;
+        width: 22rem;
+        height: 4rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        position: unset;
+    }
 }
 
-@media (max-width:500px) {
+@media (max-width:550px) {
 
 
     .contenido1 {
@@ -268,3 +359,4 @@ a:hover {
     }
 
 }
+
