@@ -3,7 +3,7 @@ function encriptar() {
 
   var inputsc2 = document.getElementById("section2-textarea");
   inputsc2.style.cssText =
-    "display:block; font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 24px;line-height: 150%;color: #495057;border:none; padding:0;width:80%;height:80%;position:relative;";
+    "display:block; font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 24px;line-height: 150%;color: #495057;border:none; padding:0;height:40rem;position:relative; bottom: 3rem;";
 
   var pasartexto = document
     .getElementById("section1-textarea")
@@ -26,11 +26,11 @@ function encriptar() {
 }
 
 function desencriptar() {
-  /* document.getElementById("section2-elementos").style.display = "none"; */
+  document.getElementById("section2-elementos").style.display = "none";
 
   var inputsc2 = document.getElementById("section2-textarea");
   inputsc2.style.cssText =
-    "display:block; font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 24px;line-height: 150%;color: #495057;border:none; padding:0;width:80%;height:80%;position:relative;";
+    "display:block;";
 
   var pasartexto = document
     .getElementById("section1-textarea")
@@ -53,8 +53,8 @@ function desencriptar() {
 
 function copiar(){
 
-var inputsc2 = document.getElementById("section2-textarea");
-inputsc2.select();
+var inputsc22 = document.getElementById("section2-textarea");
+inputsc22.select();
 document.execCommand("copy");
 alert("se copió");
 
