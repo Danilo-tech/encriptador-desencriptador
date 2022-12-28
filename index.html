@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Desafío Encriptador - Desencriptador</title>
 </head>
@@ -16,32 +16,39 @@
 <body>
     <main>
         <section class="section1">
-        <div>
-            <img class="simbolo-alura" src="imagenes/Vector.svg" alt="Símbolo de Alura">
-        </div>
+            <div>
+                <img class="simbolo-alura" onkeyup="llamartexto(this.value) " src="imagenes/Vector.svg"
+                    alt="Símbolo de Alura">
+            </div>
             <div class="contenido1">
-                <textarea name="" class="textarea-estilo" placeholder="Ingrese el texto aquí"></textarea>
+                <textarea id="section1-textarea" class="textarea-estilo" placeholder="Ingrese el texto aquí"></textarea>
                 <div class="div-exclamacion">
                     <img src="imagenes/icono-exclamacion.svg" alt="">
                     <p class="texto-exclamacion">Solo letras minúsculas y sin acentos</p>
                 </div>
                 <div class="botones">
-                <button class="boton-encriptar">Encriptar</button>
-                <button class="boton-desencriptar">Desencriptar</button>
+                    <button class="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="boton-desencriptar">Desencriptar</button>
                 </div>
                 <br>
-                <p class="creadopor">© <em>Creado por</em> <a href="https://github.com/Danilo-tech/portafolio">Danilo</a></p>
+                <p class="creadopor">© <em>Creado por</em> <a
+                        href="https://github.com/Danilo-tech/portafolio">Danilo</a></p>
             </div>
         </section>
         <section class="section2">
-        <div class="section2-elementos">
-            <img class="muñeco" src="imagenes/Muñeco.svg" alt="Imagen de un muñeco de búsqueda">
-            <h2 class="section2-titulo">Ningún mensaje fue encontrado</h2>
-            <p class="section2-mensaje">Ingresa el texto que desees encriptar o desencriptar</p>
-        </div>
+            <div class="section2-elementos" id="section2-elementos">
+                <img class="muñeco" src="imagenes/Muñeco.svg" alt="Imagen de un muñeco de búsqueda">
+                <h2 class="section2-titulo">Ningún mensaje fue encontrado</h2>
+                <p class="section2-mensaje">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div id="section2-nuevoselementos"> </div>
+            <textarea id="section2-textarea" readonly="readonly"></textarea>
+            <button id="boton-copiar">Copiar</button>
         </section>
 
     </main>
 </body>
+<script src="js/javascript.js">
+</script>
 
 </html>

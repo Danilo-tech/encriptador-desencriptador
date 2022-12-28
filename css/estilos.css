@@ -131,7 +131,8 @@ textarea::placeholder {
     font-style: italic;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     text-decoration: none;
     color: #495057;
 }
@@ -191,6 +192,19 @@ a:hover {
 
     color: #495057;
 }
+
+#section2-textarea {
+    display: none;
+}
+
+#section2-textarea:active {
+    border: none;
+}
+
+#boton-copiar {
+    display: none;
+}
+
 
 /* tableta */
 
