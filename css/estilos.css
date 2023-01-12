@@ -195,6 +195,7 @@ a:hover {
 
 
 #section2-textarea {
+    outline: none;
     display: none;
     resize: none;
     font-family: 'Inter';
